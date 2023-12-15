@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #f8f9fa;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .main-header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navigation {
+      display: flex;
+      align-items: center;
+    }
+
+    .navigation a {
+      text-decoration: none;
+      color: #333;
+      margin-right: 20px;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+      margin-top: 10px;
+    }
+
+    .search-bar input[type="text"] {
+      border: none;
+      outline: none;
+      padding: 5px;
+    }
+
+    .search-bar button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 0 5px 5px 0;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    
+    .specifications {
+      display: flex;
+      margin-top: 10px;
+      justify-content: space-between;
+    }
+
+    .specifications a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+      margin: 0 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .specifications a:hover {
+      background-color:#6da0f2;
+    }
+
+    
+    .dresses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .dress {
+      width: 300px;
+      margin: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .dress img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .dress h3 {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .dress p {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="main-header">
+      <div class="logo">STORECODE</div>
+     
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button><i class="fa fa-search"></i></button>
+      </div>
+      <div class="shopping-icon">
+        <i class="fa fa-shopping-cart"></i>
+      </div>
+    </div>
+
+   
+  </div>
+ <div class="specifications">
+      <a href="#">All</a>
+      <a href="#">Party</a>
+      <a href="#">Festive</a>
+      <a href="#">Casual</a>
+    </div>
+
+  <div class="dresses">
+    <div class="dress">
+      <img src="dress1.jpg" alt="Dress 1">
+      <h3>Dress Name 1</h3>
+      <button>Shop now</button>
+    </div>
+   
+  </div>
+ <div class="dresses">
+    <div class="dress">
+      <img src="dress1.jpg" alt="Dress 2">
+      <h3>Dress Name 2</h3>
+      <button>Shop now</button>
+    </div>
+   
+  </div>
+ <div class="dresses">
+    <div class="dress">
+      <img src="dress1.jpg" alt="Dress 3">
+      <h3>Dress Name 3</h3>
+      <button>Shop now</button>
+    </div>
+   
+  </div>
+</body>
+</html>
